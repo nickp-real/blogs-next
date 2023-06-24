@@ -8,7 +8,7 @@ export default function Blogs() {
   );
 
   return (
-    <div>
+    <div className="mx-auto max-w-4xl">
       {blogs.map((blog, idx) => (
         <div key={idx} className="my-8">
           <Link href={blog.url}>
